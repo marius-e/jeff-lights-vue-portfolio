@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "slug": "mac-calendar",
+        "title": "MacOS calendar",
+        "description": "MacOS advanced calendar app",
+        "content": "A calendar app built for people who live in their Mac menu bar. Events, reminders and tasks sit in one place, with natural language input like \"lunch with Ana friday at 1\" and a week view that actually fits on a laptop screen. It syncs with iCloud and Google calendars and works offline when the train goes through a tunnel.",
+        "image": "/projects/cover1.jpg",
+        "tags": "nodejs, electron, vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/1.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/2.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/3.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/4.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/5.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/6.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "windows-android-sync",
+        "title": "Windows/Android photo sync",
+        "description": "Sync your phone photos with Windows",
+        "content": "Plug in your phone or just connect to the same Wi-Fi and your new photos land in a Windows folder of your choice. No cloud, no accounts, no monthly fee. The app runs quietly in the tray, skips duplicates, keeps the original dates and can sort everything into year and month folders.",
+        "image": "/projects/cover2.jpg",
+        "tags": "electron, vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/4.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/6.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/8.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/1.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/2.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/3.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "electron-calendar",
+        "title": "Electron calendar",
+        "description": "Windows/MacOS Advanced calendar app",
+        "content": "The bigger brother of the Mac calendar, rebuilt with Electron so it runs the same on Windows and MacOS. It comes with drag and drop scheduling, recurring events that don't break on daylight saving changes, color coded calendars and a dark theme that was there from day one.",
+        "image": "/projects/cover3.jpg",
+        "tags": "nodejs, electron, vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/11.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/9.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/3.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/6.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/2.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/4.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "team-calendar",
+        "title": "Team calendar",
+        "description": "Shared calendar for small teams",
+        "content": "A lightweight version of the calendar made for small teams. Everybody sees who is busy and who is free, meeting rooms can be booked straight from the week view and the whole thing loads in under a second, even on an old office laptop.",
+        "image": "/projects/cover4.jpg",
+        "tags": "vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/10.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/7.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/6.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/12.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/4.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/8.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "booking-calendar",
+        "title": "Booking calendar",
+        "description": "Online appointments for small businesses",
+        "content": "A booking calendar for barbers, dentists and anyone else who works with appointments. Clients pick a free slot from a public page, get a reminder the day before and can cancel with one click. The owner gets a clean daily agenda and a few simple stats at the end of the month.",
+        "image": "/projects/cover5.jpg",
+        "tags": "nodejs, vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/5.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/13.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/9.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/2.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/11.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/7.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "content-planner",
+        "title": "Content planner",
+        "description": "Plan videos, posts and deadlines in one place",
+        "content": "A calendar for content creators that keeps track of videos, posts and deadlines in one board. Each card goes from idea to published, can hold notes and links and shows up on the calendar the moment it gets a date. Built mostly on weekends and fueled by too much coffee.",
+        "image": "/projects/cover6.jpg",
+        "tags": "nodejs, electron, vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/12.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/3.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/8.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/1.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/13.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/6.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "family-calendar",
+        "title": "Family calendar",
+        "description": "A shared calendar the whole family can read",
+        "content": "A shared family calendar with a kid friendly view. School schedules, birthdays and who picks up who from practice are all in one place, with big colorful blocks that even a seven year old can read. Notifications are sent only to the person that actually needs them.",
+        "image": "/projects/cover7.jpg",
+        "tags": "vuejs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/7.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/2.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/11.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/5.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/10.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/9.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "slug": "react-timeline",
+        "title": "React timeline",
+        "description": "The calendar app, rebuilt with React",
+        "content": "An experimental calendar built with React and a small Node backend, mostly to see how the same app feels in a different framework. It ended up with a fast timeline view, keyboard shortcuts for everything and a REST API that other apps can use to add events.",
+        "image": "/projects/cover8.jpg",
+        "tags": "nodejs, reactjs",
+        "images": [
+            {
+                "id": 1,
+                "src": "/projects/13.jpeg"
+            },
+            {
+                "id": 2,
+                "src": "/projects/4.jpeg"
+            },
+            {
+                "id": 3,
+                "src": "/projects/1.jpeg"
+            },
+            {
+                "id": 4,
+                "src": "/projects/8.jpeg"
+            },
+            {
+                "id": 5,
+                "src": "/projects/3.jpeg"
+            },
+            {
+                "id": 6,
+                "src": "/projects/12.jpeg"
+            }
+        ]
+    }
+]

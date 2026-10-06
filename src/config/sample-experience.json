@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "startYear": 2019,
+        "role": "Frontend development",
+        "description": "Of frontend development, turning designs into fast and accessible Vue interfaces, from small business websites to large dashboards.",
+        "content": "Most of my days are spent between Vue components and SCSS files. I started with plain jQuery sites for local businesses and slowly moved to component based apps, design systems and the occasional animation that nobody asked for but everybody liked.",
+        "highlights": [
+            "Built and maintained a shared component library used by four product teams",
+            "Cut the bundle size of a large dashboard by almost 40% with lazy loaded routes",
+            "Mentored two junior developers through their first production releases"
+        ],
+        "tags": "vuejs, scss, javascript, vite"
+    },
+    {
+        "id": 2,
+        "startYear": 2020,
+        "role": "Backend and APIs",
+        "description": "Of backend work with Node, writing the REST APIs, websockets and scheduled jobs that keep my frontends running.",
+        "content": "Every frontend needs something to talk to. I write small and boring Node services that just work: REST APIs, a few websockets, scheduled jobs and the glue code that keeps everything in sync.",
+        "highlights": [
+            "Designed the REST API behind a booking platform with around 20k monthly users",
+            "Moved a legacy PHP backend to Node without any downtime",
+            "Automated deploys and database backups for all personal projects"
+        ],
+        "tags": "nodejs, express, mongodb, docker"
+    },
+    {
+        "id": 3,
+        "startYear": 2022,
+        "role": "Desktop apps with Electron",
+        "description": "Of desktop apps with Electron for Windows and MacOS, with tray icons, native menus, signed builds and auto updates.",
+        "content": "At some point the browser wasn't enough, so I started packing web apps into desktop ones. Calendars, photo sync tools and a few internal utilities later, I know way more about auto updaters and native menus than I ever planned to.",
+        "highlights": [
+            "Shipped a cross platform calendar app for Windows and MacOS",
+            "Wrote a background sync service between Android phones and Windows",
+            "Set up signed builds and auto updates for three different apps"
+        ],
+        "tags": "electron, nodejs, vuejs"
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "id": "1",
+        "slug": "personal-website",
+        "title": "Building Your Personal Website: A Step-by-Step Guide for Beginners",
+        "content": "Discover the fundamentals of web development as we take you through the process of creating your own personal website, even if you're a complete beginner. From choosing a domain name to designing your site, we've got you covered.",
+        "short_description": "Learn how to build a personal website from scratch with our beginner-friendly guide.",
+        "tags": [
+            "vuejs",
+            "javascript"
+        ],
+        "related_projects": "1",
+        "date": "2025-11-14"
+    },
+    {
+        "id": "2",
+        "slug": "online-portfolio",
+        "title": "Customizing Your Online Portfolio: Showcasing Your Work with Style",
+        "content": "Your online portfolio is your digital business card. Explore creative ways to customize and enhance it, making a lasting impression on potential clients and employers.",
+        "short_description": "Elevate your online portfolio with style and flair to stand out in your field.",
+        "tags": [
+            "design",
+            "portfolio"
+        ],
+        "related_projects": "2",
+        "date": "2025-09-02"
+    },
+    {
+        "id": "3",
+        "slug": "diy-blog",
+        "title": "DIY Blogging: Creating and Managing Your Own Personal Blog",
+        "content": "Blogging is a powerful way to share your passions and expertise. Get started with the basics of DIY blogging, from choosing the right platform to creating engaging content and managing your blog effectively.",
+        "short_description": "Start your own personal blog with our step-by-step guide and tips for successful blogging.",
+        "tags": [
+            "vuejs",
+            "nodejs"
+        ],
+        "related_projects": "3",
+        "date": "2025-06-21"
+    },
+    {
+        "id": "4",
+        "slug": "website-development",
+        "title": "From Idea to Launch: Navigating the Development of Your Personal Web Project",
+        "content": "Transform your web project idea into a reality. Follow our roadmap, which covers everything from brainstorming and planning to coding and launching your personal website or app.",
+        "short_description": "Turn your web project idea into a reality with our comprehensive development guide.",
+        "tags": [
+            "planning",
+            "nodejs"
+        ],
+        "related_projects": "3",
+        "date": "2025-03-08"
+    },
+    {
+        "id": "5",
+        "slug": "personal-brand",
+        "title": "The Power of Personal Branding: Designing a Website That Represents You",
+        "content": "Your personal website is your online identity. Explore the art of personal branding through web design, ensuring that your site authentically represents who you are and what you stand for.",
+        "short_description": "Create a website that reflects your personal brand and identity effectively.",
+        "tags": [
+            "design",
+            "portfolio"
+        ],
+        "related_projects": "4",
+        "date": "2024-12-15"
+    },
+    {
+        "id": "6",
+        "slug": "hobby-website",
+        "title": "Turning Your Hobby into a Website: Sharing Your Passion Online",
+        "content": "Passionate about a hobby or interest? Learn how to turn it into a thriving online community or business by building a website dedicated to your passion project.",
+        "short_description": "Transform your hobby into a successful online venture with your own website.",
+        "tags": [
+            "electron",
+            "nodejs"
+        ],
+        "related_projects": "3",
+        "date": "2024-10-03"
+    },
+    {
+        "id": "7",
+        "slug": "content-management",
+        "title": "Exploring Content Management Systems for Your Personal Website",
+        "content": "Content Management Systems (CMS) can simplify the process of maintaining your website. Explore popular CMS options, their features, and how to choose the right one for your personal web project.",
+        "short_description": "Discover the right CMS to manage your personal website efficiently.",
+        "tags": [
+            "nodejs",
+            "cms"
+        ],
+        "related_projects": "2",
+        "date": "2024-07-19"
+    },
+    {
+        "id": "8",
+        "slug": "website-seo",
+        "title": "Website SEO for Beginners: Optimizing Your Personal Site for Search Engines",
+        "content": "Learn the basics of search engine optimization (SEO) to boost your personal website's visibility. Our guide covers essential SEO techniques and tools for beginners.",
+        "short_description": "Improve your personal website's search engine ranking with our beginner's SEO guide.",
+        "tags": [
+            "seo",
+            "javascript"
+        ],
+        "related_projects": "5",
+        "date": "2024-04-27"
+    }
+]

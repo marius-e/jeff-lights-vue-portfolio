@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "openProjectsInModal": true,
+        "openArticlesInModal": true,
+        "useSlugs": true
+    },
+    "colors": [
+        {
+            "name": "Dark",
+            "id": "dark",
+            "preview": "#333"
+        },
+        {
+            "name": "Light",
+            "id": "light",
+            "preview": "#fff"
+        },
+        {
+            "name": "Rose",
+            "id": "rose",
+            "preview": "#ff8585"
+        }
+    ]
+}

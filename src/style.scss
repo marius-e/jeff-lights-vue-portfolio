@@ -1,0 +1,292 @@
+:root {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-family: "Raleway", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+// Outline effect
+.outlined-element {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: var(--glow-outline-size);
+    &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: calc(100% - var(--glow-outline-size));
+        height: calc(100% - var(--glow-outline-size));
+        box-sizing: border-box;
+        background: inherit;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        border-radius: calc(var(--border-radius) - 1px);
+    }
+    &.outline-y,
+    &.outline-bottom,
+    &.outline-top {
+        padding: 0;
+        border-radius: 0;
+        &::before {
+            left: 0;
+            top: 0;
+            width: 100%;
+            transform: translate(0);
+        }
+    }
+    &.outline-y {
+        &::before {
+            top: 50%;
+            height: calc(100% - 2px);
+            transform: translate(0, -50%);
+        }
+    }
+    &.outline-bottom {
+        &::before {
+            bottom: var(--glow-outline-size);
+        }
+    }
+    &.outline-top {
+        &::before {
+            top: var(--glow-outline-size);
+        }
+    }
+
+    .outline-glow {
+        position: absolute;
+        z-index: -2;
+        background: var(--glow-color);
+        width: var(--glow-size);
+        height: var(--glow-size);
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        align-self: baseline;
+        top: 0;
+        left: 0;
+    }
+}
+
+.header {
+    .outline-glow,
+    &::before {
+        transition: none;
+    }
+    &.scrolled {
+        &::before {
+            transition: none;
+            background: transparent;
+        }
+        .outline-glow {
+            opacity: 0 !important;
+        }
+    }
+}
+
+a {
+    text-decoration: inherit;
+    color: var(--font-color);
+}
+body {
+    display: flow-root;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    box-sizing: border-box;
+}
+
+// Accessibility
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.skip-link {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 100;
+    padding: 0.65rem 1.5rem;
+    border-radius: 60px;
+    background-color: var(--primary-color);
+    border: 1px dashed var(--font-color);
+    transform: translateY(-200%);
+    &:focus {
+        transform: none;
+    }
+}
+:focus-visible {
+    outline: 2px dashed var(--font-color);
+    outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+// General styles
+.general-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    @media screen and (max-width: 1023px) {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .action {
+        border: 1px dashed var(--accent-color);
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        padding: 0.55rem;
+        box-sizing: border-box;
+        background-color: var(--primary-color);
+        flex-shrink: 0;
+        &.outlined-element {
+            &::before {
+                width: calc(100% - 5px);
+                height: calc(100% - 5px);
+            }
+        }
+    }
+}
+
+h1,
+.h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+    font-family: "Codystar", "Raleway Dots", cursive;
+    margin: 0;
+    overflow-wrap: anywhere;
+    @media screen and (min-width: 768px) {
+        font-size: 3.4em;
+    }
+}
+
+.general-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    &-item {
+        background-color: var(--accent-color);
+        padding: 0.25rem 0.85rem;
+        color: var(--font-color);
+        border-radius: 30px;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 1px dashed var(--tertiary-color);
+    }
+}
+
+// Buttons
+button {
+    appearance: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: transparent;
+}
+.general-button {
+    position: relative;
+    appearance: none;
+    display: flex;
+    align-items: center;
+    padding: 0.65rem 2rem;
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+    border: 1px dashed var(--font-color);
+    border-radius: 60px;
+    color: var(--button-color);
+    transition: all 0.3s ease-in-out;
+    .icon {
+        margin-right: 0.45rem;
+    }
+    &__transparent {
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: transparent;
+    }
+}
+
+.multi-underline {
+    text-decoration: none;
+    background-image: repeating-linear-gradient(to right, transparent, var(--font-color) 2px, var(--font-color) 6px, var(--font-color) 6px);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s;
+    display: inline;
+}
+.multi-underline:hover,
+.multi-underline:focus {
+    background-size: 100% 1px;
+}
+
+// Containers and utilities
+.container {
+    max-width: 100.25rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+.bordered {
+    box-shadow: inset 0 0 0 1px var(--tertiary-color);
+}
+
+// Inputs
+.input-container {
+    margin-bottom: 1rem;
+    border-radius: 60px;
+}
+input,
+textarea {
+    display: block;
+    appearance: none;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    background: var(--secondary-color);
+    font-family: "Raleway", sans-serif;
+    color: var(--font-color);
+    resize: none;
+    border-radius: 60px;
+    &::placeholder {
+        color: var(--font-color);
+        opacity: 0.5;
+    }
+}
+textarea {
+    border-radius: 1.25rem;
+}
