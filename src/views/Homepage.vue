@@ -15,7 +15,7 @@
                                     the APIs behind them and the occasional desktop app. When I'm not coding I'm probably out walking my dog.
                                 </p>
                             </div>
-                            <div v-outline-effect class="avatar"><img class="avatar-image" src="/avatar.jpg" alt="" /></div>
+                            <div v-outline-effect class="avatar"><img class="avatar-image" :src="avatar" alt="" /></div>
                         </div>
                     </div>
                 </div>
@@ -57,6 +57,7 @@
 
 <script setup>
 import Tile from "../components/Tile.vue";
+const avatar = "avatar.jpg";
 </script>
 
 <style scoped lang="scss">
