@@ -6,7 +6,7 @@ Here's some stupid old project in the graveyard of GitHub so I can clean my back
 
 ## Why it exists
 
-I built this when I was learning Vue. No course, no tutorial series, I just picked something I could keep adding to and every time I figured out something new it ended up in here. Modals that open from the URL so the back button closes them? In. Remember that weird outline glow effect Windows 10 had for a while? In. Three color themes nobody asked for? Obviously in. The pink one is #woke af, don't press it if you're an alpha, it might hurt you.
+I built this when I was learning Vue. No course, no tutorial series, I just picked something I could keep adding to and every time I figured out something new it ended up in here. Modals that open from the URL so the back button closes them? In. Remember that weird outline glow effect Windows 10 had for a while? In. Three color themes nobody asked for? Obviously in.
 
 If you think you've found something of value here, you didn't. Claude could make something way better in 10 minutes.
 
